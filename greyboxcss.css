@@ -1,0 +1,57 @@
+
+/*colors and all subject to change, adding flexbox settings in app itself*/
+
+* {
+    box-sizing: border-box;
+}
+
+main {
+    background-color: lightgray;
+    padding: 25px;
+    border-radius: 5px;
+}
+
+header.quiztitle {
+    text-align: center;
+}
+
+p.currentScore {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+section.albumart {
+    text-align: center;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    width: 150px;
+    height: 150px;
+    margin: auto;
+}
+
+fieldset.questionbox {
+   margin-top: 25px;
+   border-style: none;
+   padding: 25px;
+}
+
+section.submitbutton {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+section.answerResult {
+    padding: 25px;
+}
+
+section.videoembed {
+    text-align: center;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    margin: auto;
+    width: 500px;
+    height: 300px;
+}
