@@ -8,23 +8,28 @@
     <title>Question View</title>
 </head>
 <body>
-    <header>
-        <h1>The Commonly Misheard Lyrics Quiz</h1>
-    </header> 
-    <section>
+    <main>
+        <header>
+            <h1>The Commonly Misheard Lyrics Quiz</h1>
+        </header> 
+        <section>
         <section>
             <p>album art goes here</p>
         </section>
-        <form action="/some-server-endpoint" method="GET">
-            <fieldset>
-                <legend>Which of the following is the correct lyric from....?</legend>
-                <input type="radio" name="option" id="option" required>Blinded by the light<br>
-                <input type="radio" name="option" id="option" required>Revved up like...<br>
-                <input type="radio" name="option" id="option" required>Another runner in the night<br>
-            </fieldset>
-            <p>Question 1 out of 5</p>
-            <button type="submit">Submit</button>
-    </form>
-    </section>
+            <form action="/some-server-endpoint" method="GET">
+                <fieldset>
+                    <legend>Which of the following is the correct lyric from....?</legend>
+                    <input type="radio" name="option" id="option" required>Blinded by the light<br>
+                    <input type="radio" name="option" id="option" required>Revved up like...<br>
+                    <input type="radio" name="option" id="option" required>Another runner in the night<br>
+                </fieldset>
+                <p>Question 1 out of 5</p>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+        <section>
+                <p>Current Score: 3 out of 5 Correct</p>
+        </section>
+    </main>
 </body>
 </html>
